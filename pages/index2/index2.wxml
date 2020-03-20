@@ -1,0 +1,16 @@
+<view>
+  hello world -- {{msg}}
+  <view>
+    num:500 -- num:{{num}}
+  </view>
+  <view>
+    isTrue:false -- isTrue:{{isTrue}}
+  </view>
+</view>
+<view>
+  person.name:{{person.name}} -- person.height:{{person.height}}
+  <view data-id="{{title}}">
+    title
+  </view>
+  <checkbox checked="{{true}}"></checkbox>
+</view>
